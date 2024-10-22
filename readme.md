@@ -31,7 +31,6 @@ pip install -r requirements.txt
 	|- scans/           # folder where script looks for pdf files, it is also where new folders are made
 	| |- scantest.pdf   # pdf that is in image format taken from a scanner, has the text in it
   |
-	|
 	|- refile4.py       # the main script, run this script
 	|- list.txt         # a list of tuples that contain text to match, and a label (2nd item is text to match)
 	|- requirements.txt                 # requirements.txt
