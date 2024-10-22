@@ -11,12 +11,18 @@ The script file will go through all the pdf files found in the "scans" folder an
 # Setup
 
 I used VS Code, the pdf2Image module did not install well. (wrapper for poppler).
+
 I found that the best way was to create a virtual environment in vs code, then manually install modules with PIP
 e.g. in terminal
+
 python -m venv venv
+
 choose "yes" to the prompt
+
 pip install pdf2image
+
 pip install pytesseract
+
 pip install -r requirements.txt
 
 
